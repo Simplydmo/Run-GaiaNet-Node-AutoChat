@@ -6,8 +6,8 @@ In this guide, we will go through setting up and running a Gaia AI node using th
 
 # Gaia Dashboard
 In Gaia XP program, we accumulate points by interacting with Gaia AI Agents and running Gaia nodes.
-1. Connect your wallet to [Gaia Dashboard](https://gaianet.ai/reward?invite_code=Rw1iGQ) and complete registration.
-2. Use this invite code to boost up your XP: `Rw1iGQ`
+1. Connect your wallet to [Gaia Dashboard](https://gaianet.ai/reward?invite_code=Rc1jjn) and complete registration.
+2. Use this invite code to boost up your XP: `Rc1jjn`
 3. Complete social tasks in [Rewards Summary](https://www.gaianet.ai/reward-summary)
 
 ---
@@ -154,7 +154,11 @@ To interact with your node and earn XP, visit: [Pengu Gaia Domain](https://pengu
      ```bash
      python3 gaiabot.py
      ```
-   - Enter your Gaia API key when prompted.
+     If it shows Error, Install _requests library_
+     ```bash
+     pip3 install requests
+     ```
+   - Then enter your Gaia API key when prompted.
 
 * To minmize the screen, press `Ctrl+A+D`
 * To return the screen, enter command: `screen -r gaiabot`
