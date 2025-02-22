@@ -150,13 +150,13 @@ To interact with your node and earn XP, visit: [Pengu Gaia Domain](https://pengu
      ```bash
      screen -S gaiabot
      ```
+     If it shows Error like no binary shit stuff; just Install _requests library_ with the command below then continue
+     ```bash
+     pip3 install requests
+     ```
    - Now run this command to start the bot:
      ```bash
      python3 gaiabot.py
-     ```
-     If it shows Error, Install _requests library_
-     ```bash
-     pip3 install requests
      ```
    - Then enter your Gaia API key when prompted.
 
